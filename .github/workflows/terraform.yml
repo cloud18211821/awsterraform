@@ -29,7 +29,7 @@ jobs:
       - name: Initialize Terraform
         run: terraform init 
 
-      - name: Terraform plan
+      - name: Terraform planing
         run:  terraform plan
 
       - name: Apply Terraform configuration
