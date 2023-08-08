@@ -32,5 +32,5 @@ jobs:
       - name: Terraform planing
         run:  terraform plan
 
-      - name: Apply Terraform configuration
+      - name: Apply terraform configuration
         run: terraform apply -auto-approve 
